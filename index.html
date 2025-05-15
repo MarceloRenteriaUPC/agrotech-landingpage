@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>WaruSmart</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/planta.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-end">
+                    <div class="language-switch">
+                        <div class="language-switch-wrapper d-none d-lg-block">
+                            <div class="container d-flex justify-content-end pr-5 pt-2">
+                                <button id="language-toggle" class="toggle-btn">
+                                    <span id="lang-label">Español</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">WARU</span>SMART</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#plans" class="nav-item nav-link">Plans</a>
+                        <a href="#team" class="nav-item nav-link">Team</a>
+                        <a href="#testimonials" class="nav-item nav-link">Testimony</a>
+                        <a href="#product" class="nav-item nav-link">Product</a>
+                    </div>
+                    <!-- Botones alineados en línea correctamente -->
+                    <div class="d-flex align-items-center ml-3">
+                        <a href="signin.html" class="btn btn-outline-success btn-sm mr-2">Sign In</a>
+                        <a href="signup.html" class="btn btn-success btn-sm">Sign Up</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/cultivo1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Waru & Smart</h4>
+                            <h1 class="display-3 text-white mb-md-4">Optimize your crops with our intelligent irrigation platform</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/cultivo2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Waru & Smart</h4>
+                            <h1 class="display-3 text-white mb-md-4">Enhance your crops using our smart irrigation platform</h1>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid booking mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="bg-light shadow" style="padding: 30px;">
+                <div class="row align-items-center" style="min-height: 60px;">
+                    <div class="col-md-10">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
+                        <h1 class="mb-3">Empowering Smart Agriculture for Sustainable Growth</h1>
+                        <p>At WaruSmart, we help farmers optimize crop production using intelligent irrigation and real-time monitoring solutions. Our platform enables efficient water management, reduces waste, and boosts productivity all within your reach.</p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img class="img-fluid" src="img/about-1.jpg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid" src="img/about-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary mt-1">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Feature Start -->
+    <div class="container-fluid pb-5">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-money-check-alt text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">🌱 Affordable Technology</h5>
+                            <p class="m-0">We offer smart farming tools at accessible prices, ensuring small and medium farmers benefit from innovation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-award text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">⚙️ Reliable Performance</h5>
+                            <p class="m-0">Our irrigation and monitoring systems are built to be durable, efficient, and easy to use in any environment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-globe text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">🌍 Rural Reach</h5>
+                            <p class="m-0">Designed for remote and rural areas, our platform works even in low-connectivity zones to empower more communities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5" id="plans">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
+                <h1>Smart Irrigation System Plans</h1>
+                <p class="text-muted">Each plan includes IoT devices and access to the WaruSmart platform for monitoring and irrigation automation.</p>
+            </div>
+            <div class="row">
+                <!-- Basic Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-leaf text-success mx-auto mb-4"></i>
+                        <h5 class="mb-2">Basic Package</h5>
+                        <h4 class="text-success mb-3">$149</h4>
+                        <p class="m-0">
+                            Includes:<br>
+                            • 1 Soil Sensor<br>
+                            • 1 Smart Valve<br>
+                            • Mobile App Access<br>
+                            • 1-Year Support
+                        </p>
+                    </div>
+                </div>
+                <!-- Standard Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-light text-center mb-2 py-5 px-4 shadow">
+                        <i class="fa fa-2x fa-water text-success mx-auto mb-4"></i>
+                        <h5 class="mb-2">Standard Package</h5>
+                        <h4 class="text-success mb-3">$399</h4>
+                        <p class="m-0">
+                            Includes:<br>
+                            • 3 Soil Sensors<br>
+                            • 2 Smart Valves<br>
+                            • Web & Mobile Access<br>
+                            • 2-Year Support
+                        </p>
+                    </div>
+                </div>
+                <!-- Premium Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-solar-panel text-success mx-auto mb-4"></i>
+                        <h5 class="mb-2">Premium Package</h5>
+                        <h4 class="text-success mb-3">$599</h4>
+                        <p class="m-0">
+                            Includes:<br>
+                            • 6 Sensors (Soil, Temp, Humidity)<br>
+                            • 4 Smart Controllers + Gateway<br>
+                            • Full Dashboard Integration<br>
+                            • 3-Year Remote Support
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+    <!-- Team Start -->
+    <div class="container-fluid py-5" id="team">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-5 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team</h6>
+                <h1>Meet the WaruSmart Team</h1>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Member Template -->
+                <!-- Repeat this block for each team member -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292553/cjjbxbwuxlokpkfd2x7n.jpg" alt="Fernando Quispe" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Fernando Quispe</h5>
+                        <p class="m-0">Software Engineering - U20221C628</p>
+                        <p class="small mt-2">Has technical and team leadership skills for IoT development and effective collaboration.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292553/na5h7jijhfxzjgcdzhrr.jpg" alt="Anderson Macedo" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Anderson Macedo</h5>
+                        <p class="m-0">Software Engineering - U20201C179</p>
+                        <p class="small mt-2">Team player committed to collaborative development and applying learned skills to the project.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292554/avutl0jmdi4uxom2ndee.jpg" alt="Christopher More" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Christopher More</h5>
+                        <p class="m-0">Software Engineering - U202212199</p>
+                        <p class="small mt-2">Focused on contributing with creativity and dedication to deliver quality results.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dpnl22ssb/image/upload/v1747292553/b1anpky1mylzesfxjdk1.jpg" alt="Jair Velasquez" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Jair Velasquez</h5>
+                        <p class="m-0">Software Engineering - U202218114</p>
+                        <p class="small mt-2">Skilled in TypeScript, Java, and FullStack development with strong teamwork capabilities.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/dydklnicb/image/upload/v1745581562/foto_carlos.jpg" alt="Carlos Pingus" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Carlos Pingus</h5>
+                        <p class="m-0">Software Engineering - U202113280</p>
+                        <p class="small mt-2">Responsible and committed, passionate about technology and knowledge sharing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/drkelnilg/image/upload/v1745628789/imagen_2025-04-25_195308443_hzznhf.png" alt="Jeferson Cabrera" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Jeferson Cabrera</h5>
+                        <p class="m-0">Software Engineering - U20211C211</p>
+                        <p class="small mt-2">Knowledgeable in HTML, CSS, JS, C++, and Agile. Enjoys teamwork for project development.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-item bg-white text-center p-4 h-100">
+                        <div class="team-img mb-3">
+                            <img class="img-fluid rounded-circle border border-3 border-success" src="https://res.cloudinary.com/djia8bsvr/image/upload/v1712333792/Name_pacjmt.jpg" alt="Victor Herrera" style="width: 180px; height: 180px; object-fit: cover;">
+                        </div>
+                        <h5 class="text-truncate">Victor Herrera</h5>
+                        <p class="m-0">Software Engineering - U20201E188</p>
+                        <p class="small mt-2">Passionate about technology and science, enjoys learning and teaching throughout his academic journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="testimonials">
+        <div class="container py-5">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h6>
+                <h1>What Our Farmers Say</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto rounded-circle border border-success" src="img/testimonial-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">WaruSmart helped me reduce water usage by 30% while improving my crop yield. It's simple and very effective.</p>
+                        <h5 class="text-truncate">Juan Torres</h5>
+                        <span>Farmer - Arequipa</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-circle border border-success" src="img/testimonial-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">With the mobile alerts and real-time monitoring, I can irrigate more precisely and save time every day.</p>
+                        <h5 class="text-truncate">María Huamán</h5>
+                        <span>Farmer - Cusco</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-circle border border-success" src="img/testimonial-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Thanks to WaruSmart, I now understand how to irrigate more efficiently and my plants are healthier than ever.</p>
+                        <h5 class="text-truncate">Pedro Ccama</h5>
+                        <span>Farmer - Puno</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto rounded-circle border border-success" src="img/testimonial-4.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">The system was easy to install, and I love checking the data from my phone. It feels like farming with technology.</p>
+                        <h5 class="text-truncate">Diego Churata</h5>
+                        <span>Farmer - Ayacucho</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5" id="product">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">VIDEOS</h6>
+                <h1>About the Product</h1>
+                <p class="text-muted">Discover the components of the WaruSmart project: from our IoT sensor system to the mobile and web applications that power it.</p>
+            </div>
+            <div class="row pb-3">
+                <!-- Web Platform -->
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/blog-1.jpg" alt="Web Platform">
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">01</h6>
+                                <small class="text-white text-uppercase"></small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <span class="text-primary text-uppercase">WaruSmart</span>
+                            </div>
+                            <h5 class="m-0">Web Monitoring Dashboard</h5>
+                            <p class="mt-2 mb-0 small">Access real-time data, control irrigation systems remotely, and manage crop insights through our intuitive web platform.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mobile Application -->
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/blog-2.jpg" alt="Mobile App">
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">02</h6>
+                                <small class="text-white text-uppercase"></small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <span class="text-primary text-uppercase">WaruSmart</span>
+                            </div>
+                            <h5 class="m-0">Mobile App</h5>
+                            <p class="mt-2 mb-0 small">Receive alerts, view soil and humidity data, and control irrigation from your phone — anywhere, anytime.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- IoT Hardware System -->
+                <div class="col-lg-4 col-md-6 mb-4 pb-2">
+                    <div class="blog-item">
+                        <div class="position-relative">
+                            <img class="img-fluid w-100" src="img/blog-3.jpg" alt="IoT System">
+                            <div class="blog-date">
+                                <h6 class="font-weight-bold mb-n1">03</h6>
+                                <small class="text-white text-uppercase"></small>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4">
+                            <div class="d-flex mb-2">
+                                <span class="text-primary text-uppercase">WaruSmart</span>
+                            </div>
+                            <h5 class="m-0">IoT Sensor System</h5>
+                            <p class="mt-2 mb-0 small">Includes smart soil sensors, temperature & humidity detectors, and automated valve controllers for intelligent irrigation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">WARU</span>SMART</h1>
+                </a>
+                <p>WaruSmart is an intelligent irrigation solution that integrates IoT technology to help farmers optimize water usage and monitor crop health in real time.</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Navigation</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="#about"><i class="fa fa-angle-right mr-2"></i>About</a>
+                    <a class="text-white-50 mb-2" href="#plans"><i class="fa fa-angle-right mr-2"></i>Plans</a>
+                    <a class="text-white-50 mb-2" href="#product"><i class="fa fa-angle-right mr-2"></i>Devices</a>
+                    <a class="text-white-50 mb-2" href="#team"><i class="fa fa-angle-right mr-2"></i>Team</a>
+                    <a class="text-white-50 mb-2" href="#testimonials"><i class="fa fa-angle-right mr-2"></i>Testimonials</a>
+                    <a class="text-white-50" href="#product"><i class="fa fa-angle-right mr-2"></i>Product</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Resources</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>User Guide</a>
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>FAQs</a>
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Technical Support</a>
+                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Documentation</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Av. Primavera 2390, Lima, Peru</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+51 999 999 999</p>
+                <p><i class="fa fa-envelope mr-2"></i>contact@warusmart.com</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white-50">&copy; 2025 <a href="#">WaruSmart</a>. All rights reserved.</p>
+            </div>
+            <div class="col-lg-6 text-center text-md-right">
+                <p class="m-0 text-white-50">Designed by WaruSmart Team</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        const button = document.getElementById('language-toggle');
+        const label = document.getElementById('lang-label');
+
+        const isSpanish = window.location.pathname.includes('es.html');
+        label.textContent = isSpanish ? 'English' : 'Español';
+
+        button.addEventListener('click', () => {
+            if (isSpanish) {
+                window.location.href = 'index.html';
+            } else {
+                window.location.href = 'es.html';
+            }
+        });
+    </script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
