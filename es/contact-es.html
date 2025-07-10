@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Favicon -->
-    <link href="img/planta.png" rel="icon">
+    <link href="../img/icon-warusmart.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,11 +17,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -58,14 +58,14 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="#about" class="nav-item nav-link">Acerca</a>
-                    <a href="cooperative.html" class="nav-item nav-link">Cooperativas</a>
-                    <a href="#plans" class="nav-item nav-link">Planes</a>
-                    <a href="#team" class="nav-item nav-link">Equipo</a>
-                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    <a href="index-es.html" class="nav-item nav-link active">Inicio</a>
+                    <a href="index-es.html#about" class="nav-item nav-link">Acerca</a>
+                    <a href="cooperative-es.html" class="nav-item nav-link">Cooperativas</a>
+                    <a href="index-es.html#plans" class="nav-item nav-link">Planes</a>
+                    <a href="index-es.html#team" class="nav-item nav-link">Equipo</a>
+                    <a href="contact-es.html" class="nav-item nav-link">Contacto</a>
                 </div>
-                <!-- Botones alineados en línea correctamente -->
+
                 <div class="d-flex align-items-center ml-3">
                     <a href="https://warusmart-webplatform.netlify.app/sign-in" class="btn btn-outline-success btn-sm mr-2">Iniciar Sesión</a>
                     <a href="https://warusmart-webplatform.netlify.app/sign-up" class="btn btn-success btn-sm">Registrarse</a>
@@ -140,20 +140,21 @@
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-white-50 py-3 px-sm-3 px-lg-5" style="margin-top: 90px;">
     <div class="row pt-3 align-items-center">
-        <!-- Logo WARUSMART a la izquierda -->
+
+        <!-- WARUSMART logo on the left -->
         <div class="col-lg-4 col-md-4 mb-3">
             <a href="" class="navbar-brand">
                 <h1 class="text-primary"><span class="text-white">WARU</span>SMART</h1>
             </a>
         </div>
 
-        <!-- Texto Farmer centrado -->
+        <!-- Centered Farmer text -->
         <div class="col-lg-4 col-md-4 mb-3 text-center">
             <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">Agricultor</h5>
             <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">Cooperativa de agricultores</h5>
         </div>
 
-        <!-- Texto Codex alineado a la derecha -->
+        <!-- Codex text aligned to the right -->
         <div class="col-lg-4 col-md-4 mb-3 text-right">
             <h5 class="text-white text-uppercase mb-2" style="letter-spacing: 5px;">CODEX</h5>
         </div>
@@ -183,30 +184,30 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 <script>
     const button = document.getElementById('language-toggle');
     const label = document.getElementById('lang-label');
 
-    const isSpanish = window.location.pathname.includes('contactes.html');
+    const isSpanish = window.location.pathname.includes('../en/contact-en.html');
     label.textContent = isSpanish ? 'English' : 'Español';
 
     button.addEventListener('click', () => {
         if (isSpanish) {
             window.location.href = 'contact.html';
         } else {
-            window.location.href = 'contactes.html';
+            window.location.href = '../en/contact-en.html';
         }
     });
 </script>
