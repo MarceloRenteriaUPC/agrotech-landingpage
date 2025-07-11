@@ -293,14 +293,14 @@
     const button = document.getElementById('language-toggle');
     const label = document.getElementById('lang-label');
 
-    const isSpanish = window.location.pathname.includes('../es/cooperative-es.html');
+    const isSpanish = window.location.pathname.includes('cooperative-en.html');
     label.textContent = isSpanish ? 'English' : 'Español';
 
     button.addEventListener('click', () => {
         if (isSpanish) {
-            window.location.href = 'cooperative-en.html';
-        } else {
             window.location.href = '../es/cooperative-es.html';
+        } else {
+            window.location.href = 'cooperative-en.html';
         }
     });
 </script>

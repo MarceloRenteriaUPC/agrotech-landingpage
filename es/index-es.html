@@ -217,11 +217,16 @@
             <p class="text-muted">Descubre los componentes del proyecto WaruSmart: desde nuestro sistema de sensores IoT hasta las aplicaciones móviles y web que lo integran.</p>
         </div>
         <div class="row pb-3">
-            <!-- Web Platform -->
+            <!-- Plataforma Web -->
             <div class="col-lg-4 col-md-6 mb-4 pb-2">
                 <div class="blog-item">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="../img/blog-1.jpg" alt="Plataforma Web">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item w-100"
+                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=1"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                         <div class="blog-date">
                             <h6 class="font-weight-bold mb-n1">01</h6>
                             <small class="text-white text-uppercase"></small>
@@ -232,15 +237,20 @@
                             <span class="text-primary text-uppercase">WaruSmart</span>
                         </div>
                         <h5 class="m-0">Panel Web de Monitoreo</h5>
-                        <p class="mt-2 mb-0 small">Accede a datos en tiempo real, controla los sistemas de riego de forma remota y gestiona información de cultivos desde nuestra plataforma web intuitiva.</p>
+                        <p class="mt-2 mb-0 small">Accede a datos en tiempo real, controla los sistemas de riego de forma remota y gestiona el cultivo desde nuestra plataforma web intuitiva.</p>
                     </div>
                 </div>
             </div>
-            <!-- Mobile Application -->
+            <!-- Aplicación Móvil -->
             <div class="col-lg-4 col-md-6 mb-4 pb-2">
                 <div class="blog-item">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="../img/blog-1.jpg" alt="Aplicación Móvil">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item w-100"
+                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=197"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                         <div class="blog-date">
                             <h6 class="font-weight-bold mb-n1">02</h6>
                             <small class="text-white text-uppercase"></small>
@@ -251,15 +261,20 @@
                             <span class="text-primary text-uppercase">WaruSmart</span>
                         </div>
                         <h5 class="m-0">Aplicación Móvil</h5>
-                        <p class="mt-2 mb-0 small">Recibe alertas, consulta datos de suelo y humedad, y controla el riego desde tu celular — en cualquier lugar y en cualquier momento.</p>
+                        <p class="mt-2 mb-0 small">Recibe alertas, consulta datos del suelo y humedad, y controla el riego desde tu celular — estés donde estés.</p>
                     </div>
                 </div>
             </div>
-            <!-- IoT Hardware System -->
+            <!-- Sistema de Hardware IoT -->
             <div class="col-lg-4 col-md-6 mb-4 pb-2">
                 <div class="blog-item">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="../img/blog-1.jpg" alt="Sistema IoT">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item w-100"
+                                    src="https://www.youtube.com/embed/fYHt7Ylf2pE?start=378"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                         <div class="blog-date">
                             <h6 class="font-weight-bold mb-n1">03</h6>
                             <small class="text-white text-uppercase"></small>
@@ -270,7 +285,7 @@
                             <span class="text-primary text-uppercase">WaruSmart</span>
                         </div>
                         <h5 class="m-0">Sistema de Sensores IoT</h5>
-                        <p class="mt-2 mb-0 small">Incluye sensores inteligentes de suelo, detectores de temperatura y humedad, y controladores de válvulas automatizados para un riego inteligente.</p>
+                        <p class="mt-2 mb-0 small">Incluye sensores inteligentes de suelo, detectores de temperatura y humedad, y válvulas automatizadas para un riego eficiente.</p>
                     </div>
                 </div>
             </div>
@@ -477,7 +492,14 @@
                 <div class="col-lg-10 col-md-12">
                     <div class="blog-item">
                         <div class="position-relative">
-                            <img class="img-fluid w-100" src="../img/blog-1.jpg" alt="Video del Equipo">
+                            <iframe class="img-fluid w-100"
+                                    style="height: 400px;"
+                                    src="https://www.youtube.com/embed/S_ZQc5pirhE"
+                                    title="Team Video"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                            </iframe>
                         </div>
                         <div class="bg-white p-4 text-center">
                             <div class="d-flex justify-content-center mb-2">
@@ -560,14 +582,14 @@
     const button = document.getElementById('language-toggle');
     const label = document.getElementById('lang-label');
 
-    const isSpanish = window.location.pathname.includes('../index.html');
+    const isSpanish = window.location.pathname.includes('index-es.html');
     label.textContent = isSpanish ? 'English' : 'Español';
 
     button.addEventListener('click', () => {
         if (isSpanish) {
-            window.location.href = 'index-es.html';
-        } else {
             window.location.href = '../index.html';
+        } else {
+            window.location.href = 'index-es.html';
         }
     });
 </script>

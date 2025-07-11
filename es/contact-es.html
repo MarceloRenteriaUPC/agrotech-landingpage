@@ -200,14 +200,14 @@
     const button = document.getElementById('language-toggle');
     const label = document.getElementById('lang-label');
 
-    const isSpanish = window.location.pathname.includes('../en/contact-en.html');
+    const isSpanish = window.location.pathname.includes('contact-es.html');
     label.textContent = isSpanish ? 'English' : 'Español';
 
     button.addEventListener('click', () => {
         if (isSpanish) {
-            window.location.href = 'contact.html';
-        } else {
             window.location.href = '../en/contact-en.html';
+        } else {
+            window.location.href = 'contact-es.html';
         }
     });
 </script>
